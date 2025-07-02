@@ -29,12 +29,20 @@ p {
   color: #343a40;
 }
 
+.card {
+  margin-bottom: 30px;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
 @media screen and (min-width:576px) {
   .row {
     margin-bottom: 30px;
   }
 }
-
 
 .submit-color {
   background-color: #DE660D;
