@@ -30,7 +30,7 @@ p {
 }
 
 .card {
-  margin-bottom: 30px;
+  border-radius: 0;
 }
 
 .row {
